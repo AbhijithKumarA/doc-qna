@@ -1,3 +1,11 @@
 <Solution>
-  <Project Path="DocQnA.Api/DocQnA.Api.csproj" />
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/DocQnA.Api/DocQnA.Api.csproj" />
+    <Project Path="src/DocQnA.Application/DocQnA.Application.csproj" Id="d3efa883-8881-4a38-976b-6d022431bdb9" />
+    <Project Path="src/DocQnA.Domain/DocQnA.Domain.csproj" Id="ad6b8315-c749-49c4-8e30-d1b4efdfdcab" />
+    <Project Path="src/DocQnA.Infrastructure/DocQnA.Infrastructure.csproj" Id="f607d7bd-d31a-49c5-8438-bf3356c127dc" />
+  </Folder>
 </Solution>
